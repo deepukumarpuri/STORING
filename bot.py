@@ -51,8 +51,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("Support Group", url="https://t.me/DK_BOTZ"),
+                        InlineKeyboardButton("Bots Channel", url="https://t.me/DKBOTZ")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -72,7 +72,7 @@ async def start(bot: Client, cmd: Message):
                 send_stored_file = await bot.forward_messages(chat_id=cmd.from_user.id, from_chat_id=Config.DB_CHANNEL,
                                                               message_ids=file_id)
             await send_stored_file.reply_text(
-                f"**Here is Sharable Link of this file:** https://t.me/{Config.BOT_USERNAME}?start=AbirHasan2005_{file_id}\n\n__To Retrive the Stored File, just open the link!__",
+                f"**Here is Sharable Link of this file:** https://t.me/{Config.BOT_USERNAME}?start=DKBOTZHELP_{file_id}\n\n__To Retrive the Stored File, just open the link!__",
                 disable_web_page_preview=True, quote=True)
         except Exception as err:
             await cmd.reply_text(f"Something went wrong!\n\n**Error:** `{err}`")
@@ -99,7 +99,7 @@ async def main(bot: Client, message: Message):
                 pass
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DevsZone)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DK_BOTZ)",
                                      disable_web_page_preview=True)
             return
 
@@ -119,8 +119,8 @@ async def main(bot: Client, message: Message):
                 parse_mode="Markdown",
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton("Open Link", url=share_link)],
-                     [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates"),
-                      InlineKeyboardButton("Support Group", url="https://t.me/DevsZone")]]
+                     [InlineKeyboardButton("Bots Channel", url="https://t.me/DKBOTZ"),
+                      InlineKeyboardButton("Support Group", url="https://t.me/DK_BOTZ")]]
                 ),
                 disable_web_page_preview=True
             )
@@ -312,8 +312,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("OWNER",
+                                             url="https://t.me/DKBOTZHELP")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -331,8 +331,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                        InlineKeyboardButton("OWNER",
+                                             url="https://t.me/DKBOTZHELP")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
