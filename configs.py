@@ -39,9 +39,19 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @DKBOTZHELP
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
+🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
+📝 **Language:** [Python3](https://www.python.org)
+
+📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
+
+📡 **Hosted on:** [Heroku](https://heroku.com)
+
+🧑🏻‍💻 **Developer:** @DKBOTZHELP
+
+👥 **Support Group:** [DK BOTZ](https://t.me/DK_BOTZ)
+
+📢 **Updates Channel:** [DK BOTZ](https://t.me/DKBOTZ)
 
 """
 	HOME_TEXT = """
