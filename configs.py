@@ -19,9 +19,9 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-This is Permanent Files Store Bot!
-Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
+**THIS BOT SEND MOVIE FROM YOUTUBE WANT ANY MOVIES SUBSCRIBE MY YOUTUBE CHANNEL AND COMMENT ME YOUTUBE CHANNEL.**
 
+SUBSCRIBE :- https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w
 🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
 
 📝 **Language:** [Python3](https://www.python.org)
@@ -30,11 +30,13 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
+**YOUTUBE**: [LINK](https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w)
+
 🧑🏻‍💻 **Developer:** @DKBOTZHELP
 
 👥 **Support Group:** [DK BOTZ](https://t.me/DK_BOTZ)
 
-📢 **Updates Channel:** [DK BOTZ](https://t.me/DKBOTZ)
+📢 **Updates Channel:** [DK BOTZ](https://t.me/ROYAL_TECH_OFFICIAL)
 """
 	ABOUT_DEV_TEXT = f"""
 🧑🏻‍💻 **Developer:** @DKBOTZHELP
@@ -47,15 +49,19 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
+**YOUTUBE**: [LINK](https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w)
+
 🧑🏻‍💻 **Developer:** @DKBOTZHELP
 
 👥 **Support Group:** [DK BOTZ](https://t.me/DK_BOTZ)
 
-📢 **Updates Channel:** [DK BOTZ](https://t.me/DKBOTZ)
+📢 **Updates Channel:** [DK BOTZ](https://t.me/ROYAL_TECH_OFFICIAL)
 
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+Hi, [{}](tg://user?id={})\n\nThis is YOUTUBE **ROYAL TECH OFFICIAL BOT**.
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
+**THIS BOT SEND MOVIE FROM YOUTUBE WANT ANY MOVIES SUBSCRIBE MY YOUTUBE CHANNEL AND COMMENT ME YOUTUBE CHANNEL.**
+
+SUBSCRIBE :- https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w Check **About Bot** Button.
 """
