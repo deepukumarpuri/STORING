@@ -30,8 +30,6 @@ SUBSCRIBE :- https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-**YOUTUBE**: [LINK](https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w)
-
 🧑🏻‍💻 **Developer:** @DKBOTZHELP
 
 👥 **Support Group:** [DK BOTZ](https://t.me/DK_BOTZ)
@@ -49,8 +47,6 @@ SUBSCRIBE :- https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w
 
 📡 **Hosted on:** [Heroku](https://heroku.com)
 
-**YOUTUBE**: [LINK](https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w)
-
 🧑🏻‍💻 **Developer:** @DKBOTZHELP
 
 👥 **Support Group:** [DK BOTZ](https://t.me/DK_BOTZ)
@@ -59,9 +55,7 @@ SUBSCRIBE :- https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w
 
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is YOUTUBE **ROYAL TECH OFFICIAL BOT**.
+Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot.**
 
-**THIS BOT SEND MOVIE FROM YOUTUBE WANT ANY MOVIES SUBSCRIBE MY YOUTUBE CHANNEL AND COMMENT ME YOUTUBE CHANNEL.**
-
-SUBSCRIBE :- https://www.youtube.com/channel/UCosYJsNmv_n3VkMb01Ipq6w Check **About Bot** Button.
+**Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check About Bot Button**
 """
